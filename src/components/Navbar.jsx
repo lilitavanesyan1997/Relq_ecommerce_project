@@ -3,6 +3,8 @@ import { Search, ShoppingCartOutlined } from "@material-ui/icons";
 import React from 'react';
 import styled from 'styled-components';
 import { mobile } from "../responsive";
+import Register from "../pages/Register";
+import { Link } from "react-router-dom";
 
 
 const Container = styled.div`
@@ -86,11 +88,11 @@ const Navbar = () => {
           <Logo>Online Shop</Logo>
         </Center>
         <Right>
-          <MenuItem>REGISTER</MenuItem>
-          <MenuItem> SIGN IN </MenuItem>
+          <MenuItem><Link to="/register">REGISTER </Link></MenuItem>
+          <MenuItem><Link to="/login"> LOGIN </Link></MenuItem>
           <MenuItem>
             <Badge badgeContent={4} color="primary">
-              <ShoppingCartOutlined />
+              <Link to="/cart"><ShoppingCartOutlined /></Link>
             </Badge>
           </MenuItem>
         </Right>

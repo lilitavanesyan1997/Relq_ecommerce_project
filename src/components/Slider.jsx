@@ -4,6 +4,7 @@ import { useState } from "react";
 import styled from "styled-components";
 import { sliderItems } from "../data";
 import { mobile } from "../responsive";
+import { Link } from 'react-router-dom';
 
 
 const Container = styled.div`
@@ -79,6 +80,7 @@ const Button = styled.button`
   font-size: 20px;
   background-color: transparent;
   cursor: pointer;
+  text-
 ` ;
 
 
@@ -107,7 +109,7 @@ return (
     <InfoContainer>
        <Title>{item.title}</Title>
        <Desc>{item.desc}</Desc>
-       <Button>SHOW NOW</Button>
+       <Button><Link to="/product">PRODUCT</Link></Button>
     </InfoContainer>
     </Slide>
   ))}
