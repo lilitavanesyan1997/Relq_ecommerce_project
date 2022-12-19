@@ -6,6 +6,7 @@ import Products from "../components/Products";
 import Newsletter from "../components/Newsletter";
 import Footer from "../components/Footer";
 import { mobile } from "../responsive";
+import { Link } from 'react-router-dom';
 
 const Container = styled.div``;
 const Title = styled.h1`
@@ -34,13 +35,16 @@ ${mobile({ margin: "10px 0px" })}
 `;
 
 const Option = styled.option``;
+ 
+const Button = styled.button``;
 
 const ProductList = () => {
   return (
     <Container>
        <Navbar />
        <Announcement />
-       <Title>Dresses</Title>
+       <Title>SHIRT</Title>
+       <Button style={{margin :" 0 10px"}}><Link to="/" style={{color: "white",textDecoration:"none"}}> HOME</Link></Button>
        <FilterContainer>
          <Filter>
             <FilterText>Filter Products:</FilterText>

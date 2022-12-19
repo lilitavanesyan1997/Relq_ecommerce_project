@@ -5,6 +5,7 @@ import Navbar from "../components/Navbar";
 import Announcement from "../components/Announcement";
 import Footer from "../components/Footer";
 import { mobile } from "../responsive";
+import { Link } from 'react-router-dom';
 
 
 const Container = styled.div``;
@@ -165,6 +166,7 @@ const Cart = () => {
         <Wrapper>
           <Title>YOUR BAG</Title>
           <Top>
+          <Button style={{margin :" 0 10px", width :"100px"}}><Link to="/" style={{color: "white",textDecoration:"none"}}> HOME</Link></Button>
             <TopButton>CONTINUE SHOPPING</TopButton>
             <TopTexts>
               <TopText>Shopping Bag(2)</TopText>
@@ -186,7 +188,7 @@ const Cart = () => {
                     </ProductId>
                     <ProductColor color="black" />
                     <ProductSize>
-                      <b>Size:</b> l
+                      <b>Size:</b> L
                     </ProductSize>
                   </Details>
                 </ProductDetail>

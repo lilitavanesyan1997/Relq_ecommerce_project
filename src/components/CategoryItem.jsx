@@ -46,7 +46,7 @@ const Container = styled.div`
         <Image src={item.img} />
         <Info>
           <Title>{item.title}</Title>
-          <Button><Link to="/productlist">SHOP NOW </Link></Button>
+          <Button><Link to="/productlist" style={{textDecoration:"none", color:"black"}}>SHOP NOW </Link></Button>
         </Info>
       </Container>
     );

@@ -7,6 +7,7 @@ import Footer from '../components/Footer';
 import Navbar from "../components/Navbar";
 import Newsletter from '../components/Newsletter';
 import { mobile } from "../responsive";
+import { Link } from "react-router-dom";
 
 const Container=styled.div``;
 
@@ -124,6 +125,7 @@ const Product = () => {
           <Image src="https://img.ltwebstatic.com/images3_pi/2021/11/20/1637401071078e67c787c643dacf588d103564315d.webp" />
         </ImgContainer>
         <InfoContainer>
+        <Button style={{margin :" 0 210px"}}><Link to="/" style={{color: "black",textDecoration:"none"}}> HOME</Link></Button>
             <Title>Shirt</Title>
             <Desc>
             Elegant, stylish, fashionable shirt.

@@ -92,7 +92,7 @@ const Footer = () => {
         </Desc>
         <SocialContainer>
             <SocialIcone color="3B5999">
-              <Facebook/>
+             <Facebook/>
             </SocialIcone>
             <SocialIcone color="E4405F">
               <Instagram />

@@ -88,11 +88,11 @@ const Navbar = () => {
           <Logo>Online Shop</Logo>
         </Center>
         <Right>
-          <MenuItem><Link to="/register">REGISTER </Link></MenuItem>
-          <MenuItem><Link to="/login"> LOGIN </Link></MenuItem>
+          <MenuItem><Link to="/register" style={{textDecoration:"none", color:"black"}}>REGISTER </Link></MenuItem>
+          <MenuItem><Link to="/login" style={{textDecoration:"none", color:"black"}}> LOGIN </Link></MenuItem>
           <MenuItem>
             <Badge badgeContent={4} color="primary">
-              <Link to="/cart"><ShoppingCartOutlined /></Link>
+              <Link  style={{color: "black"}} to="/cart"><ShoppingCartOutlined /></Link>
             </Badge>
           </MenuItem>
         </Right>

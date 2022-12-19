@@ -109,7 +109,7 @@ return (
     <InfoContainer>
        <Title>{item.title}</Title>
        <Desc>{item.desc}</Desc>
-       <Button><Link to="/product">PRODUCT</Link></Button>
+       <Button><Link to="/product"style={{textDecoration:"none", color:"black"}}>PRODUCT</Link></Button>
     </InfoContainer>
     </Slide>
   ))}
