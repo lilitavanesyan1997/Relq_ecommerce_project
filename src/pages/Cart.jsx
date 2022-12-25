@@ -8,6 +8,7 @@ import { mobile } from "../responsive";
 import { Link } from 'react-router-dom';
 
 
+
 const Container = styled.div``;
 
 const Wrapper = styled.div`
@@ -160,8 +161,9 @@ const Button = styled.button`
 
 const Cart = () => {
     return (
+      <div>
+      <Navbar/>
       <Container>
-        <Navbar />
         <Announcement />
         <Wrapper>
           <Title>YOUR BAG</Title>
@@ -250,8 +252,9 @@ const Cart = () => {
             </Summary>
           </Bottom>
         </Wrapper>
-        <Footer />
       </Container>
+      <Footer/>
+      </div>
     );
   };
   

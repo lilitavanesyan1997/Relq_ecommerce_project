@@ -1,7 +1,8 @@
 import React from 'react';
 import styled from "styled-components";
 import {mobile} from "../responsive";
-
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 const Container = styled.div`
   width: 100vw;
@@ -60,7 +61,9 @@ const Link = styled.a`
 `;
 
 const Login = () => {
-  return (
+  return ( 
+    <div>
+    <Navbar/>
     <Container>
       <Wrapper>
         <Title>SIGN IN</Title>
@@ -73,6 +76,8 @@ const Login = () => {
         </Form>
       </Wrapper>
     </Container>
+    <Footer/>
+    </div>
   );
 };
 

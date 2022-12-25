@@ -1,9 +1,9 @@
 # Relq_ecommerce_project
-<img src = "https://kartinkin.net/uploads/posts/2021-07/1625842945_5-kartinkin-com-p-oboi-shopping-krasivie-5.jpg">
+<img src = "image.png">
 
 ## ⭐ Description 
                      
-*It is online shop for Lady clothes and toys. Project was built in* 
+*This is an online shop for Lady clothing and toys. Project was built using* 
 <ul>
   <li>react.js</li>
   <li>styled-components</li>
@@ -12,10 +12,10 @@
 
 ## Features
 
-*Select the prosduct*
+*Select the product*
 <ul>
-  <li>add to cart</li>
-  <li>send a mail</li>
+  <li>adding items to a cart</li>
+  <li>sending an email</li>
 </ul>
 
 
@@ -26,7 +26,7 @@
    <li>`npm install`</li>
 </ul>
 
-## 🛠  For run
+## 🛠  To run
 
 *npm start*
 *Open http://localhost:3000 to view it in the browser*

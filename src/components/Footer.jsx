@@ -7,6 +7,7 @@ import {
 import styled from "styled-components";
 import React from 'react'
 import { mobile } from "../responsive";
+import { blue } from "@material-ui/core/colors";
 
 
 
@@ -92,13 +93,13 @@ const Footer = () => {
         </Desc>
         <SocialContainer>
             <SocialIcone color="3B5999">
-             <Facebook/>
+             <a href="https://www.facebook.com/" target="_blank"><Facebook/></a>
             </SocialIcone>
             <SocialIcone color="E4405F">
-              <Instagram />
+            <a href="https://www.instagram.com/" target="_blank"><Instagram /></a>
             </SocialIcone>
             <SocialIcone color="55ACEE">
-              <Twitter />
+            <a href="https://www.twitter.com/" target="_blank"><Twitter /></a>
             </SocialIcone>
         </SocialContainer>
      </Left>
@@ -123,7 +124,7 @@ const Footer = () => {
           <Phone style={{marginRight:"10px"}}/>+374 97 00 00 00
         </ContactItem>
         <ContactItem>
-          <MailOutline style={{marginRight:"10px"}} />@gmail.com
+        <a href="https://www.@gmail.com/" target="_blank" style={{textDecoration:"none",color:"black"}}><MailOutline style={{marginRight:"10px"}} />@gmail.com </a>
         </ContactItem>
         <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" />
     </Right>

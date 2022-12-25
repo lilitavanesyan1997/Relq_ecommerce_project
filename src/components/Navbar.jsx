@@ -85,7 +85,8 @@ const Navbar = () => {
           </SearchContainer>
         </Left>
         <Center>
-          <Logo>Online Shop</Logo>
+          {/* <Logo>Online Shop</Logo> */}
+          <p><a href = '/' style={{color: "black",textDecoration:"none"}}> ONLINE SHOP </a></p>
         </Center>
         <Right>
           <MenuItem><Link to="/register" style={{textDecoration:"none", color:"black"}}>REGISTER </Link></MenuItem>

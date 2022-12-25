@@ -2,6 +2,8 @@ import styled from "styled-components";
 import React from 'react';
 import { mobile } from "../responsive";
 import { Link } from "react-router-dom";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 const Container = styled.div`
   width: 100vw;
@@ -59,6 +61,8 @@ const Button = styled.button`
 
 const Register = () => {
   return (
+    <div>
+    <Navbar/>
     <Container>
        <Wrapper>
         <Title>CREATE AN ACCOUNT</Title>
@@ -79,6 +83,8 @@ const Register = () => {
         </Form>
        </Wrapper>
     </Container>
+    <Footer/>
+    </div>
   );
 };
 
